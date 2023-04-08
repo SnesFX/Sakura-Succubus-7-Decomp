@@ -10,6 +10,7 @@ init:
     $ credits_artist = "Wanaca"
     $ credits_bg_artist = "Fatelinealpha\nMoruno Creative"
     $ credits_music = "Zack Parrish"
+    $credits_decompiler = "SnesFX"
     #$ credits_gui = "Badriel"
     $ credits_production = "Exilim"
     $ credits_header1 = None
