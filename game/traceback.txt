@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+WindowsError: [Error 267] The directory name is invalid: u'C:\\Users\\RBorr\\Documents\\renpy\\Sakura Succubus 4\\game\\gallery.rpy\\*.*'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\RBorr\Documents\renpy\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "C:\Users\RBorr\Documents\renpy\renpy\main.py", line 341, in main
+    for fn in os.listdir(dir):
+WindowsError: [Error 267] The directory name is invalid: u'C:\\Users\\RBorr\\Documents\\renpy\\Sakura Succubus 4\\game\\gallery.rpy\\*.*'
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+ 
+Wed Mar 10 12:26:13 2021

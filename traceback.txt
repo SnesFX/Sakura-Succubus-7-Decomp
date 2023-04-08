@@ -1,0 +1,62 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 53, in script
+    scene black with fade
+  File "game/screens.rpy", line 1633, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 1633, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 1638, in execute
+    if quick_menu:
+  File "game/screens.rpy", line 1638, in <module>
+    if quick_menu:
+NameError: name 'quick_menu' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 53, in script
+    scene black with fade
+  File "renpy/ast.py", line 1658, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "renpy/exports.py", line 1657, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2801, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "renpy/display/core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 451, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 462, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1633, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 1633, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 1638, in execute
+    if quick_menu:
+  File "game/screens.rpy", line 1638, in <module>
+    if quick_menu:
+NameError: name 'quick_menu' is not defined
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 7.5.3.22090809
+Sakura Succubus 7 1.0
+Fri Apr  7 22:36:08 2023
